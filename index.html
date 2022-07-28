@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zb tech</title>
     <script src="https://kit.fontawesome.com/11d7f42d46.js" crossorigin="anonymous"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
@@ -48,7 +49,7 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+              <img src="images/cover/cover-1.png" class="d-block w-100" alt="..." style="height:600px;max-height: 100vh;">
               <div class="carousel-caption d-md-block mb-5 p-5 ">
                 <h3 class="mb-5 fw-bolder fs-1 text-light">Get Started Digital Learning</h3>
                 <p class="fs-6">Learn something new,WE are here for help you.<br>Lets start a new journy with us</p>
@@ -56,7 +57,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+              <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="..." style="height:600px;max-height: 100vh;">
               <div class="carousel-caption d-md-block mb-5 p-5">
                 <h3 class="mb-5 fw-bolder fs-1 text-light">Get Started Digital Learning</h3>
                 <p class="fs-6">Learn something new,WE are here for help you.<br>Lets start a new journy with us</p>
@@ -64,11 +65,11 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+              <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="..." style="height:600px;max-height: 100vh;">
               <div class="carousel-caption d-md-block mb-5 p-5">
                 <h3 class="mb-5 fw-bolder fs-1 text-light">Get Started Digital Learning</h3>
-                <p class="fs-6 mb-5">Learn something new,WE are here for help you.<br>Lets start a new journy with us</p>
-                <button type="button" class="btn btn-primary  fw-bolder mb-5">Get Started</button>
+                <p class="fs-6">Learn something new,WE are here for help you.<br>Lets start a new journy with us</p>
+                <button type="button" class="btn btn-primary  fw-bolder">Get Started</button>
               </div>
             </div>
           </div>
@@ -184,6 +185,48 @@
         <!-- ourcourseend -->
 
       </section>
+      <section class="mx-5 bg-info rounded">
+        <!-- readyjoinstart -->
+             <div class="d-flex">
+              <div class="text-light p-5 flex-grow-1">
+                  <h3 class="fw-bold">Ready to Join</h3>
+                  <p>If you want too join our course ,lets Registration </p>
+              </div>
+              <div class="p-5">
+                
+                  
+                  <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light text-info fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                   Registration
+                  </button>
+
+              <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                            <div class="modal-content">
+                               <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Give infomation</h5>
+                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                             </div>
+                            <div class="modal-body">
+                              <input type="mail" id="mail" name="mail" placeholder="Enter your mail">
+                             </div>
+                            <div class="modal-body">
+                              <input type="password" id="pwd" name="pwd" placeholder="password">
+                             </div>
+                        <div class="modal-footer">
+                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                             <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                        </div>
+                        </div>
+                      </div>
+                  
+                </div>
+              </div>
+             </div>
+        <!-- readyjoinend -->
+      </section>
       <!-- Questionpartstart -->
       <section>
         <h2 class="fw-bolder mt-5 text-center">Frequently Asked Questions <br>Courses</h2>
@@ -258,6 +301,7 @@
       
         </div>
     </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
